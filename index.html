@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+       <div class="nav">
+        <div class="message">
+          <i class="fa fa-bell-o active"><div id='active_bell' class="new_message"></div></i>
+        </div>
+        <div class="user">
+          <i class="	fa fa-user-circle"></i>
+        </div>
+      </div>
+      <div class="info">
+        <h1>Hello <span>Master</span></h1>
+        <p>Welcome to sweetie home</p>
+      </div>
+      <div class="indicators">
+        <div class="indicator temp_in">
+          <i class="ind_img 	fa fa-thermometer"></i>
+          <p class="ind_value">20C</p>
+        </div>
+        <div class="indicator temp_out">
+          <i class="ind_img fa fa-snowflake-o"></i>
+          <p class="ind_value">30C</p>
+        </div>
+        <div
+          class="indicator 
+         humidity"
+        >
+          <i class="ind_img fa fa-tint"></i>
+          <p class="ind_value">80%</p>
+        </div>
+        <div class="indicator users">
+          <i class="ind_img fa fa-user"></i>
+          <p class="ind_value">3</p>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div class="room">
+        <a href="./rooms.html"><img src="./src/livingroom.jpg" /></a>
+        <div>
+          <h2>Living <span>room</span></h2>
+          <p>6 devices</p>
+          </div>
+      </div>
+      <div class="room">
+        <img src="./src/bathroom.jpg" />
+        <div>
+          <h2>Bath<span>room</span></h2>
+          <p>2 devices</p>
+        </div>
+      </div>
+      <div class="room">
+        <img src="./src/kitchen.jpg" />
+        <div>
+          <h2>Kitchen<span></span></h2>
+          <p>7 devices</p>
+        </div>
+      </div>
+      <div class="room">
+        <img src="./src/bedroom.jpg" />
+        <div>
+          <h2>Beed<span>room</span></h2>
+          <p>4 devices</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="quick_button active el ">
+        <i class="fa fa-home el"></i>
+        <p>Home</p>
+      </div>
+      <div class="quick_button el ">
+        <i class="fa fa-gear el"></i>
+        <p>Settings</p>
+      </div>
+      <div class="quick_button">
+        <i class="	fa fa-bookmark-o"></i>
+        <p>Savemode</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
